@@ -1,1 +1,109 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
 
+html {
+	overflow-x: hidden;
+}
+
+body {
+	display: block;
+	font-family: Arial, Times New Roman;
+	
+}
+
+.section-one {
+	background: #FF3131;
+	width: 100%;
+	margin: 0;
+	color: #000;
+	padding: 1rem 10rem 10rem 10rem;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 7rem;
+	padding-right: 10rem;
+	
+}
+
+.header-logo {
+	width: 20rem;
+}
+
+.header-links  {
+	list-style-type: none;
+	font-size: 1.2rem;
+	font-weight: 600;
+	font-family: Georgia, Arial;
+	margin-left: auto;
+	column-gap: 2rem;
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	padding-right: 7rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav > ul > li {
+	text-decoration: none;
+}
+
+nav > ul > li > a {
+	color: #fff;
+}
+
+
+h1 {
+	font-size: 3rem;
+	color: #fff;
+}
+
+h1, h2, h3, h4 {
+	font-family: Georgia, Arial;
+}
+
+
+.column-container {
+	display: flex;
+	flex-direction: row;
+	gap: 6rem;
+	
+}
+
+.left-text {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-size: 1.5rem;
+	
+}
+
+.right-image {
+	width: 40%;
+	display: flex;
+}
+
+
+button {
+	background-color: #3882F6;
+	color: #fff;
+	border-color: #fff;
+	border-radius: 0.8em;
+	font-size: 0.8rem;
+	font-weight: 700;
+	padding: 0.5rem 2rem 0.5rem 2rem;
+	cursor: pointer;
+	
+
+}
