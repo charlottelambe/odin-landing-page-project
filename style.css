@@ -104,6 +104,33 @@ button {
 	font-weight: 700;
 	padding: 0.5rem 2rem 0.5rem 2rem;
 	cursor: pointer;
-	
+}
 
+.section-two {
+	display: flex;
+	flex-direction: column;
+	align-text: center;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3rem;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-size: 2.5rem;
+	
+}
+
+.products {
+	display:flex;
+	justify-content: center;
+	gap: 3rem;
+	padding: 3rem 3rem 5rem 3rem;
+}
+
+.box {
+	text-align: center;
+	font-size: 1.3rem;
 }
